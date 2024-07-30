@@ -1,14 +1,25 @@
 ## khu-mcl-docker
 
+### FYI
+Because this repository was designed for a lab seminar,
+code efficiency aspects were not considered.
+
+So, please keep in mind that this is simply a repository
+for learning 'Docker'.
+
 ### app.py
-This script runs a simple web server using Flask and 
+This script runs a simple web server using 'Flask' and 
 demonstrates a client sending a message to the server.
 
 The server runs in a new thread, while the client
 sends a message to the server after a certain delay
 and prints the server's response.
 
-Environment veriables are used to set the server's port and the client's message.
+### Dockerfile
+Environment variables are used to set the server's port and the client's message
+at the time running 'Docker Container'.
+
+USER_NAME variable will be set while building docker-image.
 
 ### How to use
 
